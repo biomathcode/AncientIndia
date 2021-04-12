@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import India from "./map/india";
+import India from "@/components/map/india";
 import { SVGMap } from "react-svg-map";
 import "react-svg-map/lib/index.css";
-import { getLocationId, getLocationName } from "./map/utils";
+import { getLocationId, getLocationName } from "@/components/map/utils";
 
 export default function MapPage() {
   const [pointedLocation, setPointed] = useState(null);
